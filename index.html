@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        height: 80vh;
+        width: 100%;
+        background-image: url(img/work.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(66, 89, 88);
+      }
+      .box {
+        /* height: 50px;
+            width: 30px; */
+        /* border: 3px solid red; */
+        margin: 10px;
+        padding: 10px;
+        color: white;
+        cursor: pointer;
+      }
+      .box1 {
+        color: black;
+        background-color: white;
+      }
+      /* main section */
+      .main {
+        display: flex;
+        
+      }
+      img{
+        height: 400px;
+        width: 300px;
+        flex-grow: 1;
+        margin: 10px;
+      }
+      /* footer */
+      .footer{
+        display: flex;
+        /* height: 50vh;
+        width: 100%; */
+        justify-content: space-between;
+        /* border: 2px solid red; */
+        background-color: bisque;
+      }
+      .left{
+        flex:1;
+        height: 300px;
+        /* border: 3px solid blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .left p{
+        padding: 80px;
+      }
+      .right{
+        flex: 1;
+        /* border: 2px solid blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="box box1">Home</div>
+        <div class="box box2">Services</div>
+        <div class="box box3">About</div>
+        <div class="box box4">Project</div>
+        <div class="box box5">Contact</div>
+      </div>
+     
+    </div>
+    <div class="main">
+        <img src="img/1.jpg" alt="" />
+        <img src="img/2.jpg" alt="" />
+        <img
+          src="img/3.jpg"
+          alt=""
+        />
+      </div>
+      <div class="footer">
+        <div class="left">
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, accusamus quibusdam dignissimos fugiat quod ipsa sapiente, quia eum nemo odio ullam unde modi voluptas quas laborum officia tenetur porro. Eligendi est possimus, doloribus magni numquam soluta odit libero, doloremque minus cupiditate tenetur eveniet, necessitatibus velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptas quisquam corporis id, sit repellendus sunt perspiciatis nostrum tempore officia ducimus obcaecati ullam reprehenderit, numquam est suscipit iure assumenda aliquam ut fuga itaque.</p>
+        </div>
+        <div class="right">
+<img src="img/footer.jpg" alt="">
+        </div>
+      </div>
+  </body>
+</html>
